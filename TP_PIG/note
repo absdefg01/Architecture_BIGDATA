@@ -1,0 +1,36 @@
+genome-scores
+movieId, tagId, relevance
+
+genome-tags
+tagId, tag
+
+links
+movieId, imdbld, tmdbld
+
+movies
+movieId, title, genres
+
+ratings
+userId, movieId, rating, timestamp
+
+tags
+userId, movieId, tag, timestamp
+
+
+/Users/zhaomengzi/Downloads/M2/architecture/Pig/ml-20m/ratings.csv 
+
+illustrate A
+
+illustrate B
+B = …
+find a new relation named B, too quick or too low
+
+
+
+pig -x local
+illustrate A : show an random example of A
+
+
+
+1 - rating movie
+1 - movie tag
